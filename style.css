@@ -1,0 +1,43 @@
+*{
+   margin:0%;
+   padding:0%;
+box-sizing:border-box;
+}
+
+html,body {
+    height:100% ;
+    width:100% ;
+}
+body{
+    background-color:lightpink ;
+}
+.box1 {
+    margin-left: 30px;
+}
+.box1 h1{    
+    padding-top: 100px;
+    /* margin-left: 30px; */
+  
+}
+.box p{
+
+    padding-top: 30px;
+    /* margin-left: 30px; */
+
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: yellow;
+    margin-left: 20px;
+}
+.box2 img{
+   float: right;
+   padding-top: -100px;
+}
